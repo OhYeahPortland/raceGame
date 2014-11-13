@@ -50,22 +50,21 @@ function start() {
         //firstLeg should increment the checkPoint value
         firstLeg();
 
-        //Replace innerHTML element that has an id of  then update its contents
+        //Replace innerHTML element that has an id of then update its contents
         var check02 = document.getElementById('buggs');
         check02.textContent = rabbit.position;
 
-        //Replace innerHTML element that has an id of  then update its contents
+        //Replace innerHTML element that has an id of then update its contents
         var check03 = document.getElementById('cecil');
         check03.textContent = turtle.position;
 
         checkPoint += 1;
     } else {
-        console.log("Done");
-        //Replace innerHTML element that has an id of  then update its contents
+        //Replace innerHTML element that has an id of then update its contents
         var check04 = document.getElementById('checkPoint');
         check04.textContent = end;
 
-        //Replace innerHTML element that has an id of  then update its contents
+        //Replace innerHTML element that has an id of then update its contents
         var check05 = document.getElementById('leading');
         check05.textContent = end;
 
